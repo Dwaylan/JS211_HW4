@@ -17,11 +17,15 @@ const countUpToTen = () => {
     console.log(i);
     }
 }
+// The initial expression is i=1
+// The condition is "i<=10" meaning "i" is less than or equal to 10
+// The increment expression is "i++" meaning the iterator aka "i" will steadily increase  
 
 countUpToTen()
+// countUpToTen() calls the function
 
 
-
+// Once again:
 // for (let i = 1; i <= 10; i++)
 // for() looks just like a function invocation. And it is. We pass into it the following argument:
 // let i = 1; is the initial expression. It states that the iterator, i, will start at 1.

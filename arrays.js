@@ -19,3 +19,20 @@ let enimies = [];
 friends[2] = 'Jenny Smith';
 // In the array at position "2" I replaced it with Jenny Smith
 // Name of array [position] will change the array
+
+
+// Array Methods:
+// ".pop" pops off the last item of the array AND returns it
+// *** It is importation to not that ".pop" is a mutating method
+// that changes the length of the array
+
+// ".push" adds a new item on as the last item of the array AND returns the
+// NEW length of the array
+
+// ".shift" removes the first method of an array and then returns the method
+// The method changes the length of the array (mutation)
+
+// ".unshift" ADDS a new first methods of an array
+
+// ".splice" changes the contents of an array by removing or replacing existing
+//  elements and/or adding new elements in place.
