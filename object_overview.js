@@ -11,6 +11,9 @@ const person = {
 
 console.log(person.firstName) // => "Keith"
 console.log(person.age) // 31
+// Square bracket notation is also valid.
+// Example: console.log(person['age']) will call the age of said person
+// The variable inside of bracket notation MUST be a string
 
 // To get the value of the id key of this object we use dot notation, exampleObject.id. 
 // It would not matter if id was the first key or the three thousandth key, all we would 
